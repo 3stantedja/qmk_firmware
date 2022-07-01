@@ -73,3 +73,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Define grave escape behaviour */
 #define GRAVE_ESC_CTRL_OVERRIDE
 #define GRAVE_ESC_ALT_OVERRIDE
+
+/* Comment below if you need more than 8 layers */
+#define LAYER_STATE_8BIT
+
+#define NO_MUSIC_MODE
