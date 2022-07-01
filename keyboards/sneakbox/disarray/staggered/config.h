@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    Sneakbox
 #define PRODUCT         Disarray (Staggered Layout)
 
-/*Bootmagic boot button, set to topmost, leftmost key */
+/* Bootmagic boot button, set to topmost, leftmost key */
 #define BOOTMAGIC_LITE_ROW	1
 #define BOOTMAGIC_LITE_COLUMN	0
 
@@ -34,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* #define NUMBER_OF_ENCODERS 1 */
 #define ENCODERS_PAD_A { B3 }
 #define ENCODERS_PAD_B { B2 }
-#define ENCODER_RESOLUTION 4
+#define ENCODER_RESOLUTION 4 /* stepped encoders needs this to work nicely*/
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -70,6 +70,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_VAL_STEP 8
 #endif
 
-/* Define grave escape behaviour*/
+/* Define grave escape behaviour */
 #define GRAVE_ESC_CTRL_OVERRIDE
 #define GRAVE_ESC_ALT_OVERRIDE
