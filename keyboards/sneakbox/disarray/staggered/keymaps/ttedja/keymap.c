@@ -1,5 +1,6 @@
 /*
 Copyright 2021 Bryan Ong
+Copyright 2022 Fyra Tedja
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
