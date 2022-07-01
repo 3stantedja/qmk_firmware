@@ -34,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* #define NUMBER_OF_ENCODERS 1 */
 #define ENCODERS_PAD_A { B3 }
 #define ENCODERS_PAD_B { B2 }
-#define ENCODER_RESOLUTION 1
+#define ENCODER_RESOLUTION 4
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -50,6 +50,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
+#define USB_POLLING_INTERVAL_MS 1
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -59,6 +60,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Define LED Indicator Pin */
 #define LED_NUM_LOCK_PIN B1
+#define LED_PIN_ON_STATE 1
 
 #ifdef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
@@ -67,3 +69,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #endif
+
+/* Define grave escape behaviour*/
+#define GRAVE_ESC_CTRL_OVERRIDE
+#define GRAVE_ESC_ALT_OVERRIDE
